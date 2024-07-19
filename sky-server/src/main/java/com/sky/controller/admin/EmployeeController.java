@@ -92,4 +92,29 @@ public class EmployeeController {
         return Result.success(pageResult);
     }
 
+
+    @ApiOperation("启用或者禁用用户")
+    @PostMapping("/status/{status}")
+    public Result startOrStop(@PathVariable("status") Integer status, Long id) {
+        log.info("启用或禁用用户");
+        Employee employee = Employee.builder().build();
+        employeeService.startOrStop(status, id);
+        return Result.success();
+    }
+
+    @ApiOperation("编辑员工信息")
+    @PutMapping
+    // 提交的是json数据
+    public Result edit(@RequestBody EmployeeDTO employeeDTO) {
+        employeeService.edit(employeeDTO);
+        return Result.success();
+    }
+
+    @ApiOperation("根据id查询员工")
+    @GetMapping("/{id}")
+    public Result<Employee> getById(@PathVariable("id") Long id) {
+        Employee employee = employeeService.getById(id);
+        return Result.success(employee);
+    }
+
 }
