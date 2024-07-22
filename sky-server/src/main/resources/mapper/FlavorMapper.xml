@@ -11,4 +11,13 @@
                 (#{item.dishId}, #{item.name}, #{item.value})
             </foreach>
     </insert>
+    <delete id="deleteBatchByDishId">
+        delete from dish_flavor where dish_id in
+            <foreach collection="ids" item="itm" separator="," open="(" close=")">
+                #{itm}
+            </foreach>
+    </delete>
+    <select id="getByDishId" resultType="com.sky.entity.DishFlavor" parameterType="java.lang.Long">
+        select * from dish_flavor where dish_id = #{id}
+    </select>
 </mapper>
