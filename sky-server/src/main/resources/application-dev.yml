@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5tQ8wuKSCYeVeUZyQoxe
     access-key-secret: jqs5t8YpqJHtNtwSmwHWvPBJvkvURX
     bucket-name: cremi
+  redis:
+    host: 120.46.213.13
+    port: 6379
+    password: "@Mvplab123"
+    database: 0
