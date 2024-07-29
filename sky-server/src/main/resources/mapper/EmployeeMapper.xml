@@ -8,9 +8,6 @@
             <if test="name!=null and name!=''">
                 name = #{name},
             </if>
-            <if test="createTime!=null">
-                create_time = #{createTime},
-            </if>
             <if test="idNumber!=null and idNumber!=''">
                 id_number = #{idNumber},
             </if>

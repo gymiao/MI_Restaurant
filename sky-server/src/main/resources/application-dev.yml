@@ -16,3 +16,6 @@ sky:
     port: 6379
     password: "@Mvplab123"
     database: 0
+  wechat:
+    app-id: wx8f479788229bfd6e
+    secret: c8715808e04fac2cb881f67158624a45

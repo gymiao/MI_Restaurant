@@ -29,7 +29,7 @@ public class RedisConfiguration {
         redisTemplate.setHashKeySerializer(RedisSerializer.string());
 
         // value和hashValue的序列化器采用jsonRedisSerializer
-        redisTemplate.setValueSerializer(jsonRedisSerializer);
+        //redisTemplate.setValueSerializer(jsonRedisSerializer);
         redisTemplate.setHashValueSerializer(jsonRedisSerializer);
         return redisTemplate;
     }

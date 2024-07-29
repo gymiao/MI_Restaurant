@@ -65,4 +65,20 @@
     <select id="getById" resultType="com.sky.vo.SetmealVO" parameterType="java.lang.Long">
         select s.*, c.name as category_name from setmeal s left outer join category c on s.category_id=c.id where s.id=#{id}
     </select>
+    <select id="list" resultType="com.sky.entity.Setmeal" parameterType="com.sky.entity.Setmeal">
+        select * from setmeal
+        <where>
+            <if test="categoryId!=null">
+                and category_id = #{categoryId}
+            </if>
+            <if test="name!=null">
+                and name like concat('%', #{name},'%')
+            </if>
+
+            <if test="status!=null">
+                and status = #{status}
+            </if>
+        </where>
+        order by create_time desc
+    </select>
 </mapper>
