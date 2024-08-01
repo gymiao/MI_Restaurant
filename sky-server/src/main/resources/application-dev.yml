@@ -26,3 +26,7 @@ sky:
     weChatPayCertFilePath: c8715808e04fac2cb881f67158624a45
     notifyUrl: c8715808e04fac2cb881f67158624a45
     refundNotifyUrl: c8715808e04fac2cb881f67158624a45
+  shop:
+    address: 江苏省南京市江宁区将军大道29号
+  baidu:
+    ak: 7Nq0AliXQ0gzekjzBTfyetBwpfBVenTg
