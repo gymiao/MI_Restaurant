@@ -53,4 +53,8 @@ public interface OrderMapper {
     Integer cntOrders(Map map);
 
     List<GoodsSalesDTO> goodsSalesDTOS(Map map);
+
+    Integer countByMap(Map map);
+
+    Double sumByMap(Map map);
 }
