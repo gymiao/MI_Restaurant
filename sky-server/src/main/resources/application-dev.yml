@@ -8,8 +8,8 @@ sky:
     password: root123
   alioss:
     endpoint: oss-cn-nanjing.aliyuncs.com
-    access-key-id: LTAI5tQ8wuKSCYeVeUZyQoxe
-    access-key-secret: jqs5t8YpqJHtNtwSmwHWvPBJvkvURX
+    access-key-id: L##
+    access-key-secret: j##
     bucket-name: cremi
   redis:
     host: 120.46.213.13
@@ -17,16 +17,16 @@ sky:
     password: "@Mvplab123"
     database: 0
   wechat:
-    app-id: wx8f479788229bfd6e
-    secret: c8715808e04fac2cb881f67158624a45
-    mchid: c8715808e04fac2cb881f67158624a45
-    mchSerialNo: c8715808e04fac2cb881f67158624a45
-    privateKeyFilePath: c8715808e04fac2cb881f67158624a45
-    apiV3Key: c8715808e04fac2cb881f67158624a45
-    weChatPayCertFilePath: c8715808e04fac2cb881f67158624a45
-    notifyUrl: c8715808e04fac2cb881f67158624a45
-    refundNotifyUrl: c8715808e04fac2cb881f67158624a45
+    app-id: wx8f4797882#
+    secret: c8715808e04fac2cb881f671#
+    mchid: c8715808e04fac2cb881f#
+    mchSerialNo: c8715808e04fac2c#
+    privateKeyFilePath: c8715808e04fac2cb881f#
+    apiV3Key: c8715808e04fac2cb881f671#
+    weChatPayCertFilePath: c8715808e04fac2cb88#
+    notifyUrl: c8715808e04fac2cb881f6#
+    refundNotifyUrl: c871580##
   shop:
     address: 江苏省南京市江宁区将军大道29号
   baidu:
-    ak: 7Nq0AliXQ0gzekjzBTfyetBwpfBVenTg
+    ak: 7Nq0AliXQ0gzekjzBTfye#
